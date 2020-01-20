@@ -1,0 +1,84 @@
+<html>
+<head>
+</head>
+<style>
+form {
+ margin-top: 100px;
+}
+.previous {
+  background-color: #B0E0E6;
+  color: black;
+  width:100px;
+  height:50px;
+  
+  cursor: pointer;
+  margin-left: 80px;
+  
+}
+
+.next {
+  background-color: #B0E0E6;
+  color: white;
+margin-left: 800px;
+ 
+  width:100px; 
+  height:50px;
+  cursor: pointer;
+}
+div {
+    margin: 0;
+    position: absolute;
+	display: block;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+ #heading{
+   text-align: center;
+position: static; 
+}
+
+p{
+  margin-top: 500px;
+  margin-left: 600px;
+}
+span{
+background-color: #f1f1f1;
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 50px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    word-wrap: break-word;
+}
+a{
+  margin-top: 500px;
+  margin-left: 600px;
+}
+ 
+</style>
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+<!-- <script type="text/javascript" src="run.js"></script> -->
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  
+</script>
+<body>
+
+<h2 id="heading">QUESTION_100239372</h2>
+
+<form action="http://localhost:3000/app1" method="POST">
+<button class='previous' value='previous' name='previous'>Previous</button>
+<button class="next" value="next" name="next" >Next</button>
+</form>
+
+<div><span><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mn>2</mn></math></span><br/><br/></div>
+<p>3</p><a>4</a>
+</body>
+</html>

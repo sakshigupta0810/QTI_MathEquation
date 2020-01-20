@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="QUESTION_100239372_Q" title="QUESTION_100239372" timeDependent="false" adaptive="false">
+<responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+  <correctResponse>
+      <value>OPTION_5</value>
+  </correctResponse>
+</responseDeclaration>
+<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+<itemBody>
+<hotspotInteraction responseIdentifier="RESPONSE" maxChoices="1">
+<prompt>
+<div>
+<p>To celebrate the 100th anniversary of the opening of their school, the teachers organize a treasure hunt for the students. One of the clues states, “Think of the main office as 0 on a number line. You will find the next clue in the room that is opposite of the teachers’ lounge.”</p>
+<p>Click on the number line where the next clue will be.</p>
+<p><strong>Hint:</strong> <em>The opposite of a number is the same distance from 0, but in the opposite direction.<br />What is the opposite of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mn>2</mn></math></strong>?</em></p></div>
+</prompt>
+<object type="image/png" data="630801.gif"/>
+<hotspotChoice identifier="OPTION_0" shape="poly" coords="13,95.903647609311,2.2,95.510277443565,2.6,69.547846504338,13.4,69.154476338592,13,95.903647609311"/>
+<hotspotChoice identifier="OPTION_1" shape="poly" coords="28.4,94.330166946327,28.8,68.3677360071,17.4,68.761106172846,16.6,97.083758106548,28.4,94.330166946327"/>
+<hotspotChoice identifier="OPTION_2" shape="poly" coords="41.8,96.690387940802,32.2,97.083758106548,32,68.761106172846,42,69.154476338592,41.8,96.690387940802"/>
+<hotspotChoice identifier="OPTION_3" shape="poly" coords="54.8,96.297017775056,45,98.263868603785,44.8,71.514697333067,55,70.727957001575,54.8,96.297017775056"/>
+<hotspotChoice identifier="OPTION_4" shape="poly" coords="67.8,97.083758106548,58.4,97.87049843804,57.8,70.727957001575,67.4,71.514697333067,67.8,97.083758106548"/>
+<hotspotChoice identifier="OPTION_5" shape="poly" coords="84.2,97.870498438039,73.8,97.870498438039,72.2,70.727957001575,82.6,70.727957001575,84.2,97.870498438039"/>
+<hotspotChoice identifier="OPTION_6" shape="poly" coords="97.2,97.477128272294,88.6,97.477128272294,87.2,71.514697333067,96,70.727957001576,97.2,97.477128272294"/>
+</hotspotInteraction>
+</itemBody>
+<responseProcessing template="http://www.imsglobal.org/question/qtiv2p1/rptemplates/items/map_response"/>
+</assessmentItem>

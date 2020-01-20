@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="QUESTION_100242091_Q" title="QUESTION_100242091" timeDependent="false" adaptive="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string"/>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float">
+    <defaultValue>
+      <value></value>
+    </defaultValue>
+  </outcomeDeclaration>
+  <itemBody>
+	<div>
+<p>Plot the points that represent the opposites of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mn>5</mn></math></strong>, <strong>0</strong>, <strong>2</strong>, and <strong>4</strong>.</p>
+<p><strong>Hint:</strong> <em>The opposite of a number is the same distance from 0, but in the opposite direction.</em></p></div>
+    <extendedTextInteraction responseIdentifier="RESPONSE" placeholderText="Enter text here..." maxStrings="1" minStrings="1" format="xhtml" label="RESPONSE">
+      <prompt/>
+    </extendedTextInteraction>
+  </itemBody>
+ <responseProcessing template="http://www.imsglobal.org/question/qtiv2p1/rptemplates/match_correct.xml"/>
+</assessmentItem>

@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "demo sample",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^2.1.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "js-alert": "^1.0.4",
+    "recursive-readdir": "^2.2.2",
+    "replace": "^1.1.3",
+    "replaceall": "^0.1.6",
+    "xml-query": "^1.5.0",
+    "xml-reader": "^2.4.3"
+  }
+}

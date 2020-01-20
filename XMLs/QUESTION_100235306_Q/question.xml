@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p1.xsd" identifier="QUESTION_100235306_Q" title="QUESTION_100235306" timeDependent="false" adaptive="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier">
+    <correctResponse>
+      <value>CHOICE_1</value>
+      <value>CHOICE_2</value>
+      <value>CHOICE_4</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+  <itemBody>
+  
+  <div>
+<p>Select <strong>all</strong> the pairs of numbers that lie on opposite sides of 0 on a number line.</p>
+<p><strong>Hint:</strong> <em>To lie on opposite sides of zero on a number line, the numbers must have opposite signs.</em></p></div>
+    <choiceInteraction label="RESPONSE" responseIdentifier="RESPONSE" maxChoices="1" shuffle="false">
+      <prompt/>
+     <simpleChoice identifier="CHOICE_0">8, 7</simpleChoice>
+     <simpleChoice identifier="CHOICE_1">-10, 10</simpleChoice>
+     <simpleChoice identifier="CHOICE_2">-4, 9</simpleChoice>
+     <simpleChoice identifier="CHOICE_3">-8, -15</simpleChoice>
+     <simpleChoice identifier="CHOICE_4">-21, 21</simpleChoice>
+     <simpleChoice identifier="CHOICE_5">2, 200</simpleChoice>
+
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qtiv2p1/rptemplates/match_correct.xml"/>
+</assessmentItem>

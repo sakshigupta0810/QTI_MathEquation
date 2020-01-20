@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd http://www.w3.org/1998/Math/MathML http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd" identifier="QUESTION_100238965_Q" title="QUESTION_100238965" timeDependent="false" adaptive="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier">
+    <correctResponse>
+      <value>CHOICE_0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+  <itemBody>
+  
+  <div>
+<p>What is the opposite of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mn>12</mn></math></strong>?</p>
+<p><strong>Hint:</strong> <em>The opposite of a number is the same distance from 0, but in the opposite direction.</em></p></div>
+    <choiceInteraction label="RESPONSE" responseIdentifier="RESPONSE" maxChoices="1" shuffle="false">
+      <prompt/>
+     <simpleChoice identifier="CHOICE_0"><strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mn>12</mn></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_1"><strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>12</mn></mrow></mfrac></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_2"><strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mfrac><mrow><mn>1</mn></mrow><mrow><mn>12</mn></mrow></mfrac></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_3"><strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mn>12</mn></math></strong></simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qtiv2p1/rptemplates/match_correct.xml"/>
+</assessmentItem>

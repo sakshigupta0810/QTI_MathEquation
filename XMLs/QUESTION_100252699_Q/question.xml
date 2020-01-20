@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd http://www.w3.org/1998/Math/MathML http://www.w3.org/Math/XMLSchema/mathml2/mathml2.xsd" identifier="QUESTION_100252699_Q" title="QUESTION_100252699" timeDependent="false" adaptive="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier">
+    <correctResponse>
+      <value>CHOICE_0</value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+  <itemBody>
+  
+  <div>
+<p>What is the value of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mrow><mo>(</mo><mrow><mo>-</mo><mn>100</mn></mrow><mo>)</mo></mrow></math></strong>?</p>
+<p><strong>Hint:</strong> <em>Two negative signs indicate the opposite of the opposite of the value.<br />Two negative signs cancel each other out.</em></p></div>
+    <choiceInteraction label="RESPONSE" responseIdentifier="RESPONSE" maxChoices="1" shuffle="false">
+      <prompt/>
+     <simpleChoice identifier="CHOICE_0">100</simpleChoice>
+     <simpleChoice identifier="CHOICE_1">0</simpleChoice>
+     <simpleChoice identifier="CHOICE_2">–10</simpleChoice>
+     <simpleChoice identifier="CHOICE_3">–100</simpleChoice>
+    </choiceInteraction>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qtiv2p1/rptemplates/match_correct.xml"/>
+</assessmentItem>

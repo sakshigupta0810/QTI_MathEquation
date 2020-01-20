@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1p2.xsd" identifier="QUESTION_100256361_Q" title="QUESTION_100256361" timeDependent="false" adaptive="false">
+  <responseDeclaration identifier="RESPONSE" cardinality="ordered" baseType="identifier">
+    <correctResponse>
+   <value>CHOICE_4</value>
+    <value>CHOICE_1</value>
+    <value>CHOICE_0</value>
+    <value>CHOICE_3</value>
+    <value>CHOICE_2</value>
+    </correctResponse>
+  </responseDeclaration>
+<outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+<itemBody>
+<orderInteraction label="RESPONSE" responseIdentifier="RESPONSE" shuffle="false">
+<prompt>
+<div>
+<p>Drag each value into the correct order from LEAST to GREATEST.</p>
+<p><strong>Hint:</strong> <em>The opposite of a negative number is a positive number. The opposite of a positive number is a negative number.</em></p></div>
+    </prompt>
+     <simpleChoice identifier="CHOICE_0">the opposite of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mn>0</mn></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_1">the opposite of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mn>2</mn></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_2">the opposite of <strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mn>10</mn></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_3"><strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mrow><mo>(</mo><mrow><mo>-</mo><mn>6</mn></mrow><mo>)</mo></mrow></math></strong></simpleChoice>
+     <simpleChoice identifier="CHOICE_4"><strong><math xmlns='http://www.w3.org/1998/Math/MathML'><mo>-</mo><mn>4</mn></math></strong></simpleChoice>
+    </orderInteraction>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qtiv2p1/rptemplates/match_correct.xml"/>
+</assessmentItem>
