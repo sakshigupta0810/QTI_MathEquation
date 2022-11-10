@@ -14,8 +14,8 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "js-alert": "^1.0.4",
-    "recursive-readdir": "^2.2.2",
-    "replace": "^1.1.3",
+    "recursive-readdir": "^2.2.3",
+    "replace": "^1.2.2",
     "replaceall": "^0.1.6",
     "xml-query": "^1.5.0",
     "xml-reader": "^2.4.3"
